@@ -1,0 +1,25 @@
+{
+    "name": "Irish Rail Extension",
+    "version": "1.0.0",
+    "description": "This extension uses the Irish Rail API to check live trains in Ireland",
+    "manifest_version": 3,
+    "author": "Carl T",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Train",
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+          }
+    },
+    "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+    },    
+    "permissions": [
+        "storage",
+        "https://irish-rail-rest-api.fly.dev/*"
+    ]
+}
